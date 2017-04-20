@@ -1,7 +1,7 @@
 "use strict";
 const cp = require('child_process');
 
-module.exports = function(launchtype, script) {
+module.exports = function(script, launchtype) {
   cp.exec(`${launchtype} ${script}`, {},
       (err, stdout, stderr) => {
           console.log(`[node-launch] Launching ${script} via ${launchtype}...`);
