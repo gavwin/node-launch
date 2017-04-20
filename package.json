@@ -1,0 +1,16 @@
+{
+  "name": "node-launch",
+  "description": "Launch node scripts how and when you want.",
+  "keywords": [
+    "launcher",
+    "pm2"
+  ],
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gavwin/node-launch.git"
+  },
+  "author": "Gavin Wainwright",
+  "main": "./index.js",
+  "license": "MIT"
+}
