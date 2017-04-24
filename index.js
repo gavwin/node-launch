@@ -2,7 +2,7 @@
 const cp = require('child_process');
 
 module.exports = function(script, launchtype) {
-  if (launchtype === "pm2" || launchtype === "forever") launchtype = launchtype + " start";
+  if (launchtype === "pm2" || launchtype === "forever") launchtype += " start";
   cp.exec(launchtype + ' ' + script, {},
       (err, stdout, stderr) => {
           console.log(`[node-launch] Launching ${script} via ${launchtype}...`);
