@@ -1,5 +1,6 @@
 # node-launch
 Launch node script(s) with node-launch.
+[!alt downloads](https://img.shields.io/npm/dt/node-launch.svg)
 
 # Example
 ```js
