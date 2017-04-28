@@ -2,6 +2,7 @@
 Launch node script(s) with node-launch.
 [![downloads](https://img.shields.io/npm/dt/node-launch.svg)](https://www.npmjs.com/package/node-launch)
 [![npm](https://img.shields.io/npm/v/node-launch.svg)](https://www.npmjs.com/package/node-launch)
+[![npm](https://nodei.co/npm/node-launch.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/node-launch)
 
 # Example
 ```js
