@@ -1,7 +1,7 @@
 "use strict";
 const cp = require('child_process');
 
-module.exports = function(script, launchtype) {
+module.exports = (script, launchtype) => {
   if (launchtype === "pm2" || launchtype === "forever") launchtype += " start";
   cp.exec(launchtype + ' ' + script, {},
       (err, stdout, stderr) => {
